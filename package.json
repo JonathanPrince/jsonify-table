@@ -1,0 +1,31 @@
+{
+  "name": "jsonify-table",
+  "version": "0.0.1",
+  "description": "Module to create JSON from table data",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run jshint && mocha -R spec test/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JonathanPrince/jsonify-table.git"
+  },
+  "keywords": [
+    "JSON",
+    "table",
+    "data"
+  ],
+  "author": "Jonathan Prince <jonathan.prince@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JonathanPrince/jsonify-table/issues"
+  },
+  "homepage": "https://github.com/JonathanPrince/jsonify-table",
+  "devDependencies": {
+    "catch-error": "^1.0.0",
+    "expect.js": "^0.3.1",
+    "jshint": "^2.5.10",
+    "mocha": "^2.0.1",
+    "testem": "^0.6.23"
+  }
+}
